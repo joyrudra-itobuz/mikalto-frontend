@@ -1,0 +1,12 @@
+.location iframe {
+  height: 100%;
+  width: 100%;
+}
+
+.location-header {
+  font-size: 40px;
+}
+.location-instruction-card div p {
+  font-weight: 300;
+  color: var(--background-primary);
+}

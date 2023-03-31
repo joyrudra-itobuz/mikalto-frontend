@@ -1,0 +1,109 @@
+header {
+  position: fixed;
+  top: 0;
+  background-color: white;
+  width: 100%;
+  z-index: 99;
+}
+
+.brand-tag {
+  padding-left: 0.8rem;
+}
+
+.header-curent-page {
+  all: unset;
+  font-size: 25px;
+  margin-bottom: 2rem;
+  padding: 0 0.5rem;
+  margin-left: -1.5rem;
+}
+
+.header-curent-page:hover {
+  background-color: rgb(107, 107, 255);
+  color: white;
+  border-radius: 2rem;
+}
+
+header ul a {
+  all: unset;
+  cursor: pointer;
+  color: rgb(0, 28, 79);
+  transition: all 0.3s;
+}
+
+header ul a:hover {
+  color: rgb(4, 96, 255);
+}
+
+body .menu-container a,
+.menu-container span {
+  color: var(--color-primary);
+  font-size: 1rem;
+}
+
+html body .language-collapse {
+  display: none;
+  margin-left: -1rem;
+}
+
+.language-selector-container i {
+  margin-top: 1rem;
+}
+
+.language-selector {
+  margin-top: -2rem;
+}
+
+.language-selector:focus {
+  outline: none;
+}
+
+.nav-active {
+  display: none;
+}
+
+body header .menu-container {
+  position: fixed;
+  background-color: rgb(24, 47, 87);
+  color: white;
+  top: 0;
+  width: 70%;
+  height: 100vh;
+  font-size: 2rem;
+}
+
+.menu-openning-animation {
+  animation: menu-openning-animation 0.5s;
+}
+
+@keyframes menu-openning-animation {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.menu-closing-animation {
+  animation: menu-closing-animation 0.5s;
+}
+
+@keyframes menu-closing-animation {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .language-selector-container i {
+    margin-top: 2rem;
+  }
+
+  .language-selector {
+    margin-top: 0rem;
+  }
+}

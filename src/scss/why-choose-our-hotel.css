@@ -1,0 +1,14 @@
+.why-choose-us h2 {
+  color: var(--background-primary);
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.why-choose-us-icon {
+  font-size: 3rem;
+  color: var(--background-primary);
+}
+
+.why-choose-us-header {
+  font-size: 2.5rem !important;
+}

@@ -1,0 +1,51 @@
+.form-container-tagline {
+  letter-spacing: 2px;
+}
+
+.form-container {
+  margin: 1rem 0;
+}
+
+.form-container h2 {
+  font-size: 40px;
+}
+
+.form-container input {
+  all: unset;
+  font-size: 1rem;
+  overflow: scroll;
+}
+
+.form-container input::placeholder {
+  text-align: start;
+  padding-left: 1rem;
+}
+
+.form-container input:focus {
+  outline: none;
+}
+
+.subscribe-form {
+  padding: 0.6rem;
+  border: 1px solid rgba(128, 128, 128, 0.42);
+}
+
+.subscribe-btn {
+  all: unset;
+  padding: 0.7rem 3rem;
+  transition: all 0.5s;
+  border: 2px solid var(--background-primary);
+}
+.subscribe-btn:hover {
+  background-color: transparent !important;
+  color: var(--background-primary) !important;
+}
+
+@media screen and (min-width: 992px) {
+  .form-container input {
+    width: 80%;
+  }
+  .form-container {
+    margin: 7rem 0;
+  }
+}

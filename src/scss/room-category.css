@@ -1,0 +1,62 @@
+.room-category-card .background-primary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.room-category-card a {
+  all: unset;
+  cursor: pointer;
+  padding: 0.5rem 2rem;
+  border: 2px solid white;
+  transition: color 0.5s;
+}
+
+.room-price {
+  font-size: 1.2rem;
+  margin-top: 0.3rem;
+  font-weight: 600;
+}
+
+.room-category-tagline,
+.text-danger-style {
+  color: rgb(255, 196, 189);
+  letter-spacing: 2px;
+}
+
+.carousel-image-container {
+  width: 100%;
+  position: relative;
+}
+
+.carousel-image-container img {
+  width: 100%;
+}
+
+.room-category-card a:hover {
+  background-color: white;
+  color: black;
+}
+
+.room-category-view-details {
+  max-width: 100%;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  cursor: pointer;
+  background-color: transparent !important;
+  border: none !important;
+  color: white !important;
+  border-radius: 50%;
+}
+
+@media screen and (min-width: 992px) {
+  .room-category-card img {
+    max-width: 100%;
+  }
+  .room-category-view-details {
+    max-width: 25% !important;
+  }
+}

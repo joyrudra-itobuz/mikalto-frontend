@@ -1,0 +1,56 @@
+.promotion {
+  background-image: url("http://127.0.0.1:5050/images_promotion_promotion-bg");
+  background-size: cover;
+}
+
+.promotion-images-container {
+  max-height: 49.5rem;
+  overflow: hidden;
+  margin-top: -5rem;
+}
+
+.promotion img {
+  max-width: 100%;
+}
+
+.prmotion-image-2,
+.prmotion-image-3 {
+  display: none;
+}
+
+.promotion h2 {
+  font-size: 40px;
+  margin: 2rem 0;
+}
+
+.promotion .col-lg-5 {
+  margin: auto;
+  text-align: center;
+  padding: 5rem;
+}
+
+.promotion .join-us {
+  all: unset;
+  cursor: pointer;
+  background-color: var(--background-primary);
+  color: white;
+  padding: 0.5rem 3rem;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.5s;
+  border: 2px solid var(--background-primary);
+}
+
+.promotion .join-us:hover {
+  background-color: transparent;
+  color: var(--background-primary);
+}
+
+@media screen and (min-width: 992px) {
+  .prmotion-image-2,
+  .prmotion-image-3 {
+    display: block;
+  }
+  .prmotion {
+    padding-bottom: 5rem;
+  }
+}
