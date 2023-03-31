@@ -5,7 +5,9 @@ import "bootstrap/scss/bootstrap.scss";
 import "./form-operations";
 import "./get-card-data";
 import "./get-form-date";
+
 //Nav Controller
+
 console.log("Starts Main");
 
 const menuBtn = document.querySelector(".menu-trigger-btn");
