@@ -5,6 +5,7 @@ import "bootstrap/scss/bootstrap.scss";
 import "./form-operations";
 import "./get-card-data";
 import "./get-form-date";
+import "./getRoomCategoryData";
 
 //Nav Controller
 
