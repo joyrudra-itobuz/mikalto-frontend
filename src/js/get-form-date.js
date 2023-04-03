@@ -1,7 +1,5 @@
 //Get Checkin & out Data
 
-console.log("Starts Form Data");
-
 const checkInDate = document.querySelector(".checkin-select");
 const checkOutDate = document.querySelector(".checkout-select");
 const noOfAdults = document.querySelector(".adult-select");

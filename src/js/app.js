@@ -6,6 +6,7 @@ import "./form-operations";
 import "./get-card-data";
 import "./get-form-date";
 import "./getRoomCategoryData";
+import "./get-bg-images";
 
 //Nav Controller
 
