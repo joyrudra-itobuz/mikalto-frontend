@@ -3,7 +3,6 @@ footer {
   color: white;
   padding: 1rem !important;
 }
-
 .footer-header-main-name h2 {
   font-size: 40px;
   margin-top: -0.5rem;
@@ -14,22 +13,18 @@ footer {
   margin-top: -0.8rem;
   padding-left: 1.3rem;
 }
-
 .footer ul a {
   all: unset;
   cursor: pointer;
   color: rgb(197, 197, 197);
 }
-
 .footer ul a:hover {
   color: white;
   text-decoration: underline;
 }
-
 .footer-font-size {
   font-size: 12px;
 }
-
 .footer select {
   background-color: transparent;
   border: none;
@@ -44,7 +39,6 @@ footer {
     margin-left: -7.5rem;
   }
 }
-
 @media screen and (min-width: 1600px) {
   footer {
     padding: 10rem 5rem !important;

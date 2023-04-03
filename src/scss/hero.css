@@ -1,34 +1,27 @@
 html body {
   font-family: "Playfair Display", serif;
 }
-
 .hero {
   margin-top: 5rem;
   color: white;
-  /* background-image: url("http://127.0.0.1:5050/images_hero_hero-bg"); */
   background-size: cover;
   padding: 2rem;
 }
-
 .hero-division-container {
   display: flex;
   flex-direction: column;
   gap: 3rem;
 }
-
 .background-primary {
   background-color: var(--background-primary) !important;
   color: white !important;
 }
-
 .hero h2 {
   font-size: 50px;
 }
-
 .hero-bg {
   max-width: 100%;
 }
-
 .hero-about-us {
   all: unset;
   cursor: pointer;
@@ -38,57 +31,47 @@ html body {
   padding: 0.5rem 2rem;
   transition: all 0.5s;
 }
-
 .hero-about-us:hover {
   background-color: transparent;
   border: 2px solid white;
   color: white;
 }
-
 .veiw-homestay {
   all: unset;
   cursor: pointer;
   margin: auto 0;
 }
-
 .veiw-homestay:hover {
   text-decoration: underline;
   color: var(--background-primary);
 }
-
 .availiblity-container {
   background-color: white;
   padding: 4rem 2rem !important;
   color: rgb(0, 23, 116);
 }
-
 .availiblity-container input {
   padding: 0.5rem;
   border: 1px solid rgb(186, 186, 186);
 }
-
 .availiblity-container-header {
   font-family: "Playfair Display", serif;
   font-size: 35px;
   color: rgb(78, 78, 78);
 }
-
 .availiblity-container select {
   list-style: lower-greek;
   border: 0;
   border-bottom: 1px solid rgb(171, 171, 171);
   padding-bottom: 0.4rem;
 }
-
 .availiblity-container select:focus {
   outline: none;
 }
-
 .check-availiblity-btn {
   transition: all 0.5s !important;
   border: 2px solid var(--background-primary) !important;
 }
-
 .check-availiblity-btn:hover {
   background-color: white !important;
   color: var(--background-primary) !important;

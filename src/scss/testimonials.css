@@ -5,23 +5,9 @@
   background-size: cover;
   border-radius: 50%;
 }
-
-.testimonials-card-1 a span {
-  background-image: url("http://127.0.0.1:5050/images_testimonials_profile-1");
-}
-
-.testimonials-card-2 a span {
-  background-image: url("http://127.0.0.1:5050/images_testimonials_profile-2");
-}
-
-.testimonials-card-3 a span {
-  background-image: url("http://127.0.0.1:5050/images_testimonials_profile-3");
-}
-
 .testimonial-date {
   margin-top: -1rem;
 }
-
 body section .testimonials-tripadvisor {
   display: block;
   width: 2.5rem;
@@ -30,11 +16,9 @@ body section .testimonials-tripadvisor {
   background-size: cover;
   border-radius: 50%;
 }
-
 ul.text-success {
   margin-left: -2rem;
 }
-
 .testimonials {
   padding: 5rem 2rem;
 }

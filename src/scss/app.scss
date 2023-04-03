@@ -15,8 +15,6 @@
 /* Mixins, helpers and functions */
 @import "base/mixins";
 
-/* Vendor */
-
 /* Components */
 
 /* Browser specific styles */
@@ -40,8 +38,6 @@
 :root {
   --color-primary: white;
   --color-secondary: rgb(26, 26, 26);
-  --color-heading: rgb(0, 130, 130);
-  --color-heading-secondary: purple;
   --transiton-hover-duration: all 0.5s;
   --box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.422);
   --background-primary: rgb(9, 25, 90);
@@ -51,25 +47,20 @@
   background-color: var(--background-primary) !important;
   color: white !important;
 }
-
 .color-primary {
   color: var(--background-primary);
 }
-
 html body {
   font-family: "Playfair Display", serif;
 }
-
 html body h1 {
   font-weight: 400;
   font-size: 40px;
 }
-
 html body .secondary-font {
   font-family: "Poppins", sans-serif;
   font-size: 0.8rem;
 }
-
 html body .primary-font {
   font-family: "Playfair Display", serif;
 }
@@ -80,7 +71,6 @@ html body .primary-font {
   color: rgb(55, 158, 55);
   border-radius: 2rem;
 }
-
 .global-message-failure {
   color: rgb(214, 51, 51);
   border-radius: 2rem;

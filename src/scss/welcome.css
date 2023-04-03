@@ -5,42 +5,34 @@ html body .welcome {
   margin-top: 5rem;
   margin-bottom: 5rem;
 }
-
 .welcome span {
   font-weight: 200;
 }
-
 .color-secondary {
   color: rgb(0, 17, 86);
 }
-
 .welcome .signature {
   padding: 0rem 0 2rem 0;
   font-size: 3rem;
   transform: rotate(-10deg);
   font-family: "Dancing Script", cursive;
 }
-
 .collage-container {
   margin-top: 5rem !important;
   margin-bottom: 5rem;
 }
-
 .collage-container img {
   max-width: 60%;
 }
-
 .collage-image-1 {
   margin-top: -2rem;
   margin-left: 5rem;
   max-width: 40% !important;
 }
-
 .collage-image-2 {
   margin-top: -15rem;
   margin-left: 14rem;
 }
-
 .collage-image-3 {
   margin-top: -5rem;
   margin-left: 8rem;

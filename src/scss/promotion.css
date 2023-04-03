@@ -1,33 +1,27 @@
 .promotion {
   background-size: cover;
 }
-
 .promotion-images-container {
   max-height: 49.5rem;
   overflow: hidden;
   margin-top: -5rem;
 }
-
 .promotion img {
   max-width: 100%;
 }
-
 .prmotion-image-2,
 .prmotion-image-3 {
   display: none;
 }
-
 .promotion h2 {
   font-size: 40px;
   margin: 2rem 0;
 }
-
 .promotion .col-lg-5 {
   margin: auto;
   text-align: center;
   padding: 5rem;
 }
-
 .promotion .join-us {
   all: unset;
   cursor: pointer;
@@ -38,7 +32,6 @@
   transition: all 0.5s;
   border: 2px solid var(--background-primary);
 }
-
 .promotion .join-us:hover {
   background-color: transparent;
   color: var(--background-primary);

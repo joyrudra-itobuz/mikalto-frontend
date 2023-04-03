@@ -2,21 +2,17 @@
   color: rgb(24, 24, 83);
   letter-spacing: 2px;
 }
-
 .experience-matters-card {
   max-width: 90%;
   margin: 0 auto;
 }
-
 .experience-matters-card img {
   max-width: 100%;
 }
-
 .experience-matters-card p {
   color: rgb(14, 14, 80);
   font-weight: 300;
 }
-
 .experience-matters-card a {
   all: unset;
   display: block;
@@ -24,11 +20,9 @@
   font-weight: 300;
   color: rgb(13, 13, 82);
 }
-
 .experience-matters-card a:hover {
   color: blue;
 }
-
 .view-all-activities {
   all: unset;
   display: block;
@@ -39,7 +33,6 @@
   border: 2px solid rgb(13, 13, 82);
   transition: all 0.5s;
 }
-
 .view-all-activities:hover {
   background-color: rgb(13, 13, 82);
   color: white;

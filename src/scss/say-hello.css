@@ -1,11 +1,9 @@
 .say-hello {
   background-size: cover;
 }
-
 .say-hello h2 {
   font-size: 40px;
 }
-
 .discover-more {
   all: unset;
   cursor: pointer;
