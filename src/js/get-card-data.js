@@ -122,7 +122,6 @@ const otherActivityContent = document.querySelectorAll(
 const otherActivityImg = document.querySelectorAll(".other-activities-img");
 
 const getOtherActivitiesData = async () => {
-  console.log("Called!");
   await fetch("http://127.0.0.1:5050/get_other_activities_data")
     .then((res) => {
       return res.json();
@@ -140,6 +139,56 @@ const getOtherActivitiesData = async () => {
     });
 };
 
+//Getting testimonial Data
+
+const profileImage = document.querySelectorAll(".testimonials-profile-img");
+const userName = document.querySelectorAll(".testimonials h4");
+const reviewDate = document.querySelectorAll(".testimonial-date");
+const reviewHeading = document.querySelectorAll(".testimonials h2");
+const reviewContent = document.querySelectorAll(".testimonials p");
+
+const getTestimonialData = async () => {
+  await fetchCardData("http://127.0.0.1:5050/get_testimonial_data")
+    .then((res) => {
+      return res.json();
+    })
+    .then((res) => {
+      for (let i = 0; i < profileImage.length; i++) {
+        profileImage[i].style.backgroundImage = `url(${res[i].profileImg})`;
+        userName[i].textContent = res[i].userName;
+        reviewDate[i].textContent = res[i].date;
+        reviewHeading[i].textContent = res[i].heading;
+        reviewContent[i].textContent = res[i].content;
+      }
+    });
+};
+
+//Get promotion Data
+
+const promotionImages = document.querySelectorAll(".promotion img");
+const promotionSubHeading = document.querySelector(".promotion .sub-heading");
+const promotionHeading = document.querySelector(".promotion h2");
+const promotionContent = document.querySelector(".promotion .content");
+
+const getPromotionData = async () => {
+  await fetchCardData("http://127.0.0.1:5050/get_promotion_data")
+    .then((res) => {
+      return res.json();
+    })
+    .then((res) => {
+      console.log(res);
+      promotionImages[0].src = res[0].imgSrc1;
+      promotionImages[1].src = res[0].imgSrc2;
+      promotionImages[2].src = res[0].imgSrc3;
+      promotionSubHeading.textContent = res[0].subHeading;
+      promotionHeading.textContent = res[0].heading;
+      promotionContent.textContent = res[0].content;
+    })
+    .catch((err) => {
+      console.log(err);
+    });
+};
+
 //IIFE
 
 (async () => {
@@ -147,4 +196,6 @@ const getOtherActivitiesData = async () => {
   getRoomCardData();
   getWelcomeData();
   getOtherActivitiesData();
+  getTestimonialData();
+  getPromotionData();
 })();
